@@ -5,7 +5,6 @@
 <li><b>Frontend:</b> React, React Router, CSS </li>
 <li><b>API:</b> RESTful API</li>
 <li><b>State Management:</b> React Hooks</li>
-<li><b>Deployment:</b> Vercel / Netlify (Frontend)</li>
 </ol>
 <br><h2> 📌 Setup Instructions </h2>
 
