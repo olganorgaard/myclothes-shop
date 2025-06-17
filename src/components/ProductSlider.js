@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
+import './Product.css'
 function ProductSlider({slideProducts}){
     return(
          <Swiper
@@ -11,9 +12,9 @@ function ProductSlider({slideProducts}){
         }}>
       {slideProducts.map((product) => (
         <SwiperSlide>
-          <div key={product.id}  style={{ textAlign: 'center' }}>
+          <div key={product.id} className="slider_title">
             <p>{product.title}</p>
-            <img src={product.image} alt="clothes" style={{ height: 200, objectFit: 'contain' }}></img>
+            <img src={product.image} alt="clothes" className="slider_image"></img>
           </div>
         </SwiperSlide>
         ))}

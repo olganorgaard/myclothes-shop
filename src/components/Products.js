@@ -1,3 +1,4 @@
+import './Product.css'
 function Products ({itemForSale}){
 return(
     <div className="products">

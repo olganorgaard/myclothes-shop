@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import ProductSlider from "./ProductSlider";
-import Homedetails from "./Homedetails";
+import ProductSlider from "../components/ProductSlider";
+import Homedetails from "../components/Homedetails";
 
 function Home (){
 

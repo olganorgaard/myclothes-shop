@@ -1,3 +1,4 @@
+import './Product.css'
 function Filter ({filteredProducts, resetProducts}){
     return(
         <div className="cont">

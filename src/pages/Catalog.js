@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Products from "./Products";
-import Filter from "./Filter";
+import Products from "../components/Products";
+import Filter from "../components/Filter";
 
 function Catalog (){
 

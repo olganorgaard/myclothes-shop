@@ -1,7 +1,8 @@
-import image1 from "./delivery.jpg";
-import image2 from "./card.jpg";
-import image3 from "./return.jpg";
-import image4 from "./support.jpg";
+import image1 from "../assets/delivery.jpg";
+import image2 from "../assets/card.jpg";
+import image3 from "../assets/return.jpg";
+import image4 from "../assets/support.jpg";
+import '../pages/Home.css'
 
 function Homedetails() {
     return (
