@@ -1,10 +1,10 @@
-import Menu from './pages/Menu'
+import MainLayout from './pages/MainLaoyut';
 
 function App() {
  
   return (
     <div>
-      <Menu/>   
+      <MainLayout/>   
     </div>
   );
 }

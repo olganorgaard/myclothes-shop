@@ -13,7 +13,7 @@ import Catalog from "./Catalog";
 import { FaFacebookF, FaInstagram, FaTwitter, FaBars, FaTimes } from "react-icons/fa";
 
 
-function Menu (){
+function MainLayout (){
     const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
@@ -53,4 +53,4 @@ function Menu (){
     </div>
   )}
 
-export default Menu;
+export default MainLayout;
