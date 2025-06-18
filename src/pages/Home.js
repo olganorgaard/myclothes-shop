@@ -1,24 +1,12 @@
-import { useEffect, useState } from "react";
 import ProductSlider from "../components/ProductSlider";
 import Homedetails from "../components/Homedetails";
+import useFetchProducts from "../hooks/useFetchProducts";
 
 function Home (){
 
-    const [slideProducts, setSlideProducts] = useState([])
+const products = useFetchProducts();
 
-     useEffect (() =>{
-        const getProductsForSlider = async () =>{
-          const response = await fetch(`https://fakestoreapi.com/products`)
-          const data = await response.json();
-          console.log(data)
-          
-          setSlideProducts(data);
-          
-        }
-        getProductsForSlider()
-      }, [])
-
-      const topRated = slideProducts.filter(p => p.rating?.rate > 4.5).slice(0, 4);
+      const topRated = products.filter(p => p.rating?.rate > 4.5).slice(0, 4);
 
     return (
         <div>

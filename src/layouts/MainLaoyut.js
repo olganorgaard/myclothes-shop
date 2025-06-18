@@ -2,15 +2,11 @@
 import { useState } from "react";
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
   Link
 } from "react-router-dom";
 import '../App.css';
-import Home from "./Home";
-import About from "./About";
-import Catalog from "./Catalog";
 import { FaFacebookF, FaInstagram, FaTwitter, FaBars, FaTimes } from "react-icons/fa";
+import AppRoutes from "../routes/AppRoutes";
 
 
 function MainLayout (){
@@ -44,11 +40,7 @@ function MainLayout (){
           </div>
         </header>
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/catalog" element={<Catalog />} />
-        </Routes>
+        <AppRoutes/>
       </Router>
     </div>
   )}

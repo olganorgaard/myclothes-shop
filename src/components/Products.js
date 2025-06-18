@@ -1,4 +1,4 @@
-import './Product.css'
+import '../styles/Product.css'
 function Products ({itemForSale}){
 return(
     <div className="products">

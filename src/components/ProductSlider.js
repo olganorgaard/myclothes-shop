@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import '../styles/Product.css'
 
-import './Product.css'
 function ProductSlider({slideProducts}){
     return(
          <Swiper

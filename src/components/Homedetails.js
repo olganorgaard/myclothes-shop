@@ -2,7 +2,7 @@ import image1 from "../assets/delivery.jpg";
 import image2 from "../assets/card.jpg";
 import image3 from "../assets/return.jpg";
 import image4 from "../assets/support.jpg";
-import '../pages/Home.css'
+import '../styles/Home.css'
 
 function Homedetails() {
     return (
