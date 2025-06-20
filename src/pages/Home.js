@@ -5,8 +5,7 @@ import useFetchProducts from "../hooks/useFetchProducts";
 function Home (){
 
 const products = useFetchProducts();
-
-      const topRated = products.filter(p => p.rating?.rate > 4.5).slice(0, 4);
+const topRated = products.filter(p => p.rating?.rate > 4.5).slice(0, 4);
 
     return (
         <div>
